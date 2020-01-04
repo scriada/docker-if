@@ -1,0 +1,4 @@
+Docker image for compiling and running interacive-fiction using Inform
+
+ * inform6
+ * glulxe

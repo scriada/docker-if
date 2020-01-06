@@ -3,6 +3,7 @@
 mkdir /tmp/glulxe
 pushd /tmp/glulxe
 
+# TODO should we use a git submodule instead?
 curl -o glkterm.zip -L https://github.com/erkyrath/glkterm/archive/glkterm-1.0.4.zip
 unzip glkterm.zip && rm glkterm.zip && mv glkterm-glkterm-1.0.4 glkterm
 pushd glkterm; make; popd
